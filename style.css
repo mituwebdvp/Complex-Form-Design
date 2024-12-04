@@ -1,0 +1,68 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container {
+    width:700px;
+    min-height:300px;
+    margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
+    box-shadow:0 1px 5px 0 rgba(0,0,0,0.2);
+    border-radius: 0.25rem;
+    /* overflow: hidden; */
+}
+
+.header {
+    width:100%;
+    background: #333;
+    padding:1rem;
+    color:#fff;
+    font-size: 1.5rem;
+    font-weight:500;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+.form-section {
+    width:100%;
+    padding:1rem 2rem;
+}
+
+.inline-form {
+    display:flex;
+    justify-content:space-between ;
+    align-items: center;
+    gap:2rem;
+    margin-top: 1rem;
+}
+
+.form-group {
+    width:100%;
+    margin-bottom: 2rem;
+}
+
+.form-group > label {
+    display: block; 
+    font-size: 18px;
+    color:#333;
+}
+
+.form-group input[type='text'],
+.form-group input[type='email'],
+.form-group input[type='tel'],
+.form-group select,
+.form-group input[type='radio'],
+.form-group textarea,
+.form-group input[type='password']
+
+{
+    width:100%;
+    padding:0.5rem;
+    margin-top: 0.5rem;
+    outline:none;
+    border:1px solid #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+}
